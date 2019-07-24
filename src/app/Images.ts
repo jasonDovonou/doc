@@ -36,7 +36,7 @@ export class Images {
         "JeanMoinard(139).png",
         "JeanLaurentColas(37).jpg",
         "EmmanuelHarcaut(89).jpg",
-        "RaphaélleMangione(121).jpg",
+        "RaphaëlleMangione(121).jpg",
         "JeanMoinard(139).jpg",
         "RaphaélleMangione(121)1.jpg",
         "FrankBergé(15).jpg",

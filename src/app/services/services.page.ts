@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Data } from '../Data';
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-services',
@@ -12,6 +13,7 @@ export class ServicesPage implements OnInit {
   service: any;
   indexServ: string;
   department: any;
+  faCalendarAlt = faCalendarAlt;
 
   constructor(private router: Router) {
     this.data = Data.getData().sort((a, b) => a['department'] > b['department'] ? 1 : a['department'] === b['department'] ? 0 : -1);

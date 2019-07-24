@@ -192,7 +192,7 @@ export class Data {
                     "mail": "marie.veniard@orange.fr"
                 }]
             }, {
-                "service": "CHIRURGIE PÉDIATRIQUE MAXILLO - FACIALE",
+                "service": "CHIRURGIE PÉDIATRIQUE MAXILLO-FACIALE",
                 "docteurs": [{
                     "name": "LAURENTJOYE",
                     "firstname": "Mathieu",
@@ -201,7 +201,7 @@ export class Data {
                     "site": "www.iacv.fr"
                 }]
             }, {
-                "service": "CHIRURGIE PÉDIATRIQUE ORTHOPÉDIQUE - SCOLIOSE",
+                "service": "CHIRURGIE PÉDIATRIQUE ORTHOPÉDIQUE-SCOLIOSE",
                 "docteurs": [{
                     "name": "LEGRAND",
                     "firstname": "Bénédicte",
@@ -237,7 +237,7 @@ export class Data {
                     "site": "chirurgie-enfant.org"
                 }]
             }, {
-                "service": "GASTRO - ENTÉROLOGIE HÉPATOLOGIE ET NUTRITION PÉDIATRIQUE",
+                "service": "GASTRO-ENTÉROLOGIE HÉPATOLOGIE ET NUTRITION PÉDIATRIQUE",
                 "docteurs": [{
                     "name": "ROCHE",
                     "firstname": "Sandrine",
@@ -332,7 +332,7 @@ export class Data {
             "color": "pink",
             "department": "IMAGERIE MÉDICALE",
             "data": [{
-                "service": "ÉCHO - DOPPLER",
+                "service": "ÉCHO-DOPPLER",
                 "numsec": "05 56 43 74 28",
                 "mailsec": "selarl.angia@gmail.com",
                 "docteurs": [{
@@ -787,7 +787,7 @@ export class Data {
                     "mail": "dr.seniuta@bordeauxnord.com"
                 }]
             }, {
-                "service": "HÉPATO - GASTRO - ENTÉROLOGIE ET ENDOSCOPIE DIGESTIVE ",
+                "service": "HÉPATO-GASTRO-ENTÉROLOGIE ET ENDOSCOPIE DIGESTIVE ",
                 "docteurs": [{
                     "name": "DELPY",
                     "firstname": "René",
@@ -1009,7 +1009,7 @@ export class Data {
             "department": "ANESTHÉSIE RÉANIMATION",
             "data": [{
                 "service": "ANESTHÉSIE",
-                "numsec ": "05 64 60 15 43 ",
+                "numsec": "05 64 60 15 43 ",
                 "site": "www.anesthésiepbna.com",
                 "rdv": "doctolib.fr",
                 "docteurs": [{
@@ -1171,6 +1171,7 @@ export class Data {
                 "docteurs": [{
                     "name": "KLEIN",
                     "firstname": "Christophe",
+                    "mail": "dr.klein@bordeauxnord.com",
                     "numsec": "05 57 87 48 74",
                     "mailsec": "scm.chirurgie.dkl@outlook.fr"
                 },
@@ -1236,7 +1237,7 @@ export class Data {
                 "site": "centreaquitaindusein.fr",
                 "mailsec": "centreaquitaindusein@bordeauxnord.com"
             } */ , {
-                "service": "CHIRURGIE MAXILLO - FACIALE ET STOMATOLOGIQUE",
+                "service": "CHIRURGIE MAXILLO-FACIALE ET STOMATOLOGIQUE",
                 "docteurs": [{
                     "name": "LAURENTJOYE",
                     "firstname": "Mathieu",
@@ -1314,7 +1315,7 @@ export class Data {
                     "name": "MARTIN",
                     "firstname": "Michel",
                     "numsec": "05 33 89 17 71",
-                    "mailsec": "docteurmartin.orthopedie@gmail.com"
+                    "mail": "docteurmartin.orthopedie@gmail.com"
                 },
                 {
                     "name": "JOANNY",
@@ -1323,18 +1324,19 @@ export class Data {
                     "mail": "henri.joanny@gmail.com"
                 },
                 {
-                    "name": "PEYRAUD Christian",
+                    "name": "PEYRAUD",
+                    "firstname": "Christian",
                     "mail": "dr.peyraud@bordeauxnord.com"
                 },
                 {
-                    "name": "THANAS Franck",
-                    "firstname": "bordeauxnord.com"
+                    "name": "THANAS",
+                    "firstname": "Franck"
                 },
                 {
-                    "name": "VILLET Loïc",
-                    "firstname": "loicvillet@hotmail.fr - v.mallard1994@hotmail.fr"
-                }
-                ]
+                    "name": "VILLET",
+                    "firstname": "Loïc",
+                    "mail": "loicvillet@hotmail.fr - v.mallard1994@hotmail.fr"
+                }]
             }, {
                 "service": "ORTHOPÉDIE GÉNÉRALE",
                 "docteurs": [{
@@ -1369,12 +1371,12 @@ export class Data {
                     "mail": "thibaultcloche@yahoo.fr",
                     "rdv": "doctolib.fr"
                 }]
-            }, {
+            }, /* {
                 "service": "URGENCES VERTÈBRES",
                 "msg": "Prise en charge des urgences rachidiennes",
                 "mailsec": "vertebra@bordeauxnord.com",
                 "numsec": "05 56 43 73 56"
-            }, {
+            },  */{
                 "service": "CHIRURGIE PÉDIATRIQUE ORTHOPÉDIQUE ET SCOLIOSE",
                 "docteurs": [{
                     "name": "LEGRAND",
@@ -1411,7 +1413,7 @@ export class Data {
                     "site": "chirurgie-enfant.org"
                 }]
             }, {
-                "service": "GASTRO - ENTEROLOGIE PÉDIATRIQUE",
+                "service": "GASTRO-ENTEROLOGIE PÉDIATRIQUE",
                 "name": "ROCHE",
                 "firstname": "Sandrine",
                 "mail": "sandrineroch@gmail.com",
@@ -1473,7 +1475,7 @@ export class Data {
                 }
                 ]
             }, {
-                "service": "CHIRURGIE MAXILLO - FACIALE ADULTE ET PÉDIATRIQUE",
+                "service": "CHIRURGIE MAXILLO-FACIALE ADULTE ET PÉDIATRIQUE",
                 "numsec": "05 56 17 33 29 ",
                 "site": "www.iacv.fr",
                 "docteurs": [{
@@ -1605,7 +1607,7 @@ export class Data {
             "color": "orange",
             "department": "TRAITEMENT DU CANCER",
             "data": [{
-                "service": "HÉPATO - GASTRO - ONCO - ENTÉROLOGIE ",
+                "service": "HÉPATO-GASTRO-ONCO-ENTÉROLOGIE ",
                 "docteurs": [{
                     "name": "DEVAURE",
                     "firstname": "Iris",
@@ -1687,7 +1689,7 @@ export class Data {
                     "rdv": "doctolib.fr"
                 }]
             }, {
-                "service": "ONCOHÉMATOLOGIE ONCOGÉRIATRIE - HÉMATOGÉRIATRIE",
+                "service": "ONCOHÉMATOLOGIE ONCOGÉRIATRIE-HÉMATOGÉRIATRIE",
                 "docteurs": [{
                     "name": "FITOUSSI",
                     "firstname": "Olivier",
@@ -1704,7 +1706,7 @@ export class Data {
                 }
                 ]
             }, {
-                "service": "ONCO - GÉNÉTIQUE",
+                "service": "ONCO-GÉNÉTIQUE",
                 "docteurs": [{
                     "name": "GESSON-PAUTE",
                     "firstname": "Amélie",
@@ -1752,12 +1754,12 @@ export class Data {
                     "mail": "b.henriques@bordeauxnord.com"
                 }]
             },
-            {
+           /*  {
                 "service": "CENTRE AQUITAIN DU SEIN",
                 "numsec": "07 72 35 98 92",
                 "site": "centreaquitaindusein.fr",
                 "mailsec": "centreaquitaindusein@bordeauxnord.com",
-            }, {
+            }, */ {
                 "service": "ONCOPNEUMOLOGIE",
                 "numsec": "05 56 44 34 51",
                 "docteurs": [
@@ -1829,7 +1831,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO - GYNÉCOLOGIQUE CARCINO - MAMMAIRE",
+                "service": "CHIRURGIE CARCINO-GYNÉCOLOGIQUE CARCINO-MAMMAIRE",
                 "docteurs": [{
                     "name": "GIOANNI",
                     "firstname": "Gilles",
@@ -1862,7 +1864,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO - DIGESTIVE",
+                "service": "CHIRURGIE CARCINO-DIGESTIVE",
                 "docteurs": [{
                     "name": "KLEIN",
                     "firstname": "Christophe",
@@ -1896,7 +1898,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO, ORL ET CERVICO - FACIALE",
+                "service": "CHIRURGIE CARCINO, ORL ET CERVICO-FACIALE",
                 "docteurs": [{
                     "name": "RICARD",
                     "firstname": "Anne-Sophie",
@@ -1914,7 +1916,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO - THORACIQUE",
+                "service": "CHIRURGIE CARCINO-THORACIQUE",
                 "docteurs": [{
                     "name": "KLEIN",
                     "firstname": "Christophe",
@@ -1932,7 +1934,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO - UROLOGIQUE",
+                "service": "CHIRURGIE CARCINO-UROLOGIQUE",
                 "numsec": "05 57 81 06 60 ",
                 "mailsec": "contact@urologie-bordeaux.com",
                 "rdv": "doctolib.fr",
