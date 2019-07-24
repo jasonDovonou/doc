@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar [color]="department.color">
+    <div class="service">
+      <ion-icon mode="ios" class="back" name="arrow-back" [routerLink]="['/']"></ion-icon>
+      {{department.department}}
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="done">
+    <ion-item lines="none" *ngFor="let service of filterBy('service');let i = index"
+      [routerLink]="['/services/',index,i]">
+      <ion-label [color]="department.color">{{service.service}} </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

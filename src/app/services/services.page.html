@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar [color]="department.color">
+    <div class="service ">
+      <ion-icon mode="ios" class="back" name="arrow-back" [routerLink]="['/department',index]"></ion-icon>
+      {{department.department}}
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="title" [ngStyle]="{'border-color' : 'var(--ion-color-' + department.color + ')'}">
+    <div class="textor" [ngStyle]="{'border-color' : 'var(--ion-color-' + department.color + ')'}">
+      {{service.service}}
+    </div>
+    <div *ngIf="service.secnum" class="info">
+      Secrétariat {{service.secnum}}
+    </div>
+    <div *ngIf="service.secmail" class="info">
+      <ion-icon class="icon" name="mail"></ion-icon> {{service.secmail}}
+    </div>
+    <div *ngIf="service.site || service.rdv" class="info">
+      <ion-icon class="icon" name="desktop"></ion-icon> {{service.site}} {{service.rdv}}
+    </div>
+  </div>
+  <ion-list *ngIf="service.docteurs">
+    <ion-item lines="none" *ngFor="let doc of filterBy('name');let i = index"
+      [routerLink]="['/docteur/',index,indexServ,i]">
+      <ion-grid>
+        <ion-row>
+          <ion-label [color]="department.color">Dr {{doc.name | uppercase}} {{doc.firstname}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>{{doc.mail}}</ion-label>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-list>
+</ion-content>

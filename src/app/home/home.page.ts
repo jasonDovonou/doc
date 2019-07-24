@@ -1,12 +1,17 @@
 import { Component } from '@angular/core';
+import { Data } from '../Data';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {}
+  data = [];
+  constructor() {
+    this.data = Data.getData();
+  }
+  filterBy(prop: string) {
+    return this.data.sort((a, b) => a[prop] > b[prop] ? 1 : a[prop] === b[prop] ? 0 : -1);
+  }
 
 }

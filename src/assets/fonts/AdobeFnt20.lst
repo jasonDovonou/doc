@@ -1,0 +1,101 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ByomIcons
+FamilyName:Byom Icons
+StyleName:Regular
+MenuName:Byom Icons
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Byom Icons
+WritingScript:Roman
+OutlineFileName:/Users/kowengauthier/Bureau/Dossier Annuaire2019:2020 OK horizontal/Document fonts/ByomIcons.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145320
+FileModTime:477237266
+NameArray:0,Mac,18,Byom Icons
+NameArray:0,Mac,4,Byom Icons
+NameArray:0,Win,1,Byom Icons
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Miso-Light
+FamilyName:Miso
+StyleName:Light
+MenuName:Miso
+StyleBits:0
+WeightClass:300
+WidthClass:3
+AngleClass:1
+FullName:Miso Light
+WritingScript:Roman
+OutlineFileName:/Users/kowengauthier/Bureau/Dossier Annuaire2019:2020 OK horizontal/Document fonts/Miso Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:25976
+FileModTime:507032068
+NameArray:0,Mac,4,Miso Light
+NameArray:0,Win,1,Miso
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Geometria
+FamilyName:Geometria
+StyleName:Regular
+MenuName:Geometria
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Geometria
+WritingScript:Roman
+OutlineFileName:/Users/kowengauthier/Bureau/Dossier Annuaire2019:2020 OK horizontal/Document fonts/Geometria.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:134036
+FileModTime:548362116
+NameArray:0,Mac,4,Geometria
+NameArray:0,Win,1,Geometria
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Geometria-Light
+FamilyName:Geometria
+StyleName:Light
+MenuName:Geometria Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Geometria Light
+WritingScript:Roman
+OutlineFileName:/Users/kowengauthier/Bureau/Dossier Annuaire2019:2020 OK horizontal/Document fonts/Geometria Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:149040
+FileModTime:516031952
+NameArray:0,Mac,4,Geometria Light
+NameArray:0,Win,1,Geometria Light
+NameArray:0,Win,16,Geometria
+%EndFont
+

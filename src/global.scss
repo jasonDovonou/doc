@@ -1,4 +1,3 @@
-// http://ionicframework.com/docs/theming/
 @import '~@ionic/angular/css/core.css';
 @import '~@ionic/angular/css/normalize.css';
 @import '~@ionic/angular/css/structure.css';
@@ -9,3 +8,119 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+@font-face {
+    font-family: 'geometria';
+    src: url('/assets/fonts/Geometria.ttf');
+}
+
+ion-item {
+    font-family: 'geometria';
+    font-size: 12px;
+    color: #76777C;
+}
+
+.back {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.service {
+    padding-left: 16px;
+    font-family: 'geometria';
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.ion-color-pink {
+    --ion-color-base: var(--ion-color-pink) !important;
+    --ion-color-base-rgb: var(--ion-color-pink-rgb) !important;
+    --ion-color-contrast: var(--ion-color-pink-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-pink-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-pink-shade) !important;
+    --ion-color-tint: var(--ion-color-pink-tint) !important;
+}
+
+.ion-color-azul {
+    --ion-color-base: var(--ion-color-azul) !important;
+    --ion-color-base-rgb: var(--ion-color-azul-rgb) !important;
+    --ion-color-contrast: var(--ion-color-azul-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-azul-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-azul-shade) !important;
+    --ion-color-tint: var(--ion-color-azul-tint) !important;
+}
+
+.ion-color-red {
+    --ion-color-base: var(--ion-color-red) !important;
+    --ion-color-base-rgb: var(--ion-color-red-rgb) !important;
+    --ion-color-contrast: var(--ion-color-red-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-red-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-red-shade) !important;
+    --ion-color-tint: var(--ion-color-red-tint) !important;
+}
+
+
+.ion-color-blue {
+    --ion-color-base: var(--ion-color-blue) !important;
+    --ion-color-base-rgb: var(--ion-color-blue-rgb) !important;
+    --ion-color-contrast: var(--ion-color-blue-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-blue-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-blue-shade) !important;
+    --ion-color-tint: var(--ion-color-blue-tint) !important;
+}
+
+.ion-color-brown {
+    --ion-color-base: var(--ion-color-brown) !important;
+    --ion-color-base-rgb: var(--ion-color-brown-rgb) !important;
+    --ion-color-contrast: var(--ion-color-brown-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-brown-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-brown-shade) !important;
+    --ion-color-tint: var(--ion-color-brown-tint) !important;
+}
+
+.ion-color-green {
+    --ion-color-base: var(--ion-color-green) !important;
+    --ion-color-base-rgb: var(--ion-color-green-rgb) !important;
+    --ion-color-contrast: var(--ion-color-green-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-green-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-green-shade) !important;
+    --ion-color-tint: var(--ion-color-green-tint) !important;
+}
+
+.ion-color-orange {
+    --ion-color-base: var(--ion-color-orange) !important;
+    --ion-color-base-rgb: var(--ion-color-orange-rgb) !important;
+    --ion-color-contrast: var(--ion-color-orange-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-orange-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-orange-shade) !important;
+    --ion-color-tint: var(--ion-color-orange-tint) !important;
+}
+
+
+.title {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    font-family: 'geometria';
+    color: #76777C;
+    border-bottom: 1px solid;
+
+    .textor {
+        border-bottom: 1px solid;
+    }
+
+    .info {
+        padding-top: 4px;
+        font-size: 12px;
+        display: flex;
+        align-items: flex-start;
+
+        .icon {
+            padding-right: 2px;
+        }
+
+    }
+}
