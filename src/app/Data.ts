@@ -173,11 +173,11 @@ export class Data {
                     "mail": "es.millot@laposte.net"
                 }
                 ]
-            }, {
+            }, /* {
                 "service": "CONSULTATION DE GARDE DES PÉDIATRES LIBÉRAUX",
                 "numsec": "05 56 43 72 34",
                 "msg": "Week-end et jours fériés sur rendez-vous"
-            },
+            }, */
 
             {
                 "service": "CARDIOPÉDIATRE",
@@ -310,7 +310,7 @@ export class Data {
                     "firstname": "Hervé",
                     "mail": "drherveleyral@gmail.com"
                 }]
-            }, {
+            }, /* {
                 "service": "CONSULTATION DE GARDE DES PÉDIATRES LIBÉRAUX",
                 "numsec": "05 56 43 72 34 ",
                 "msg": "Week-end et jours fériés sur rendez-vous",
@@ -325,7 +325,7 @@ export class Data {
             }, {
                 "service": "URGENCES MAINS",
                 "numsec": "05 56 43 73 56"
-            }
+            } */
             ]
         }, {
             "id": 3,
@@ -1230,14 +1230,12 @@ export class Data {
                     "rdv": "doctolib.fr"
                 }
                 ]
-            }, {
+            } /* {
                 "service": "CENTRE AQUITAIN DU SEIN",
                 "numsec": "07 72 35 98 92",
                 "site": "centreaquitaindusein.fr",
                 "mailsec": "centreaquitaindusein@bordeauxnord.com"
-            }
-
-                , {
+            } */ , {
                 "service": "CHIRURGIE MAXILLO - FACIALE ET STOMATOLOGIQUE",
                 "docteurs": [{
                     "name": "LAURENTJOYE",
@@ -1291,10 +1289,10 @@ export class Data {
                     "rdv": "doctolib.fr"
                 }
                 ]
-            }, {
+            }, /* {
                 "service": "URGENCES MAINS",
                 "numsec": "05 56 43 73 56"
-            }, {
+            }, */ {
                 "service": "CHIRURGIE DU MEMBRE INFÉRIEUR",
                 "docteurs": [{
                     "name": "NOAILLES",
