@@ -174,10 +174,10 @@ export class Data {
                 }
                 ]
             }, /* {
-                "service": "CONSULTATION DE GARDE DES PÉDIATRES LIBÉRAUX",
-                "numsec": "05 56 43 72 34",
-                "msg": "Week-end et jours fériés sur rendez-vous"
-            }, */
+    "service": "CONSULTATION DE GARDE DES PÉDIATRES LIBÉRAUX",
+    "numsec": "05 56 43 72 34",
+    "msg": "Week-end et jours fériés sur rendez-vous"
+    }, */
 
             {
                 "service": "CARDIOPÉDIATRE",
@@ -311,21 +311,21 @@ export class Data {
                     "mail": "drherveleyral@gmail.com"
                 }]
             }, /* {
-                "service": "CONSULTATION DE GARDE DES PÉDIATRES LIBÉRAUX",
-                "numsec": "05 56 43 72 34 ",
-                "msg": "Week-end et jours fériés sur rendez-vous",
-            }, {
-                "service": "SOS PNEUMOTHORAX",
-                "numsec": "05 56 43 73 14"
-            }, {
-                "service": "URGENCES VERTÈBRES",
-                "msg": "Prise en charge des urgences rachidiennes",
-                "numsec": "05 56 43 73 56",
-                "mailsec": "vertebra@bordeauxnord.com"
-            }, {
-                "service": "URGENCES MAINS",
-                "numsec": "05 56 43 73 56"
-            } */
+    "service": "CONSULTATION DE GARDE DES PÉDIATRES LIBÉRAUX",
+    "numsec": "05 56 43 72 34 ",
+    "msg": "Week-end et jours fériés sur rendez-vous",
+    }, {
+    "service": "SOS PNEUMOTHORAX",
+    "numsec": "05 56 43 73 14"
+    }, {
+    "service": "URGENCES VERTÈBRES",
+    "msg": "Prise en charge des urgences rachidiennes",
+    "numsec": "05 56 43 73 56",
+    "mailsec": "vertebra@bordeauxnord.com"
+    }, {
+    "service": "URGENCES MAINS",
+    "numsec": "05 56 43 73 56"
+    } */
             ]
         }, {
             "id": 3,
@@ -381,6 +381,7 @@ export class Data {
                 "service": "ÉCHOGRAPHIE OBSTÉTRICALE DIAGNOSTIC ANTÉNATAL",
                 "numsec": "05 56 43 72 20 ",
                 "site": "www.imagerie-medicale-bordeaux-nord.fr",
+                "both": true,
                 "docteurs": [{
 
                     "name": "MALLEMOUCHE-BOQUIEN",
@@ -407,6 +408,7 @@ export class Data {
                 "service": "IMAGERIE DE LA FEMME SÉNOLOGIE",
                 "numsec": "05 56 43 72 20 ",
                 "site": "www.imagerie-medicale-bordeaux-nord.fr",
+                "both": true,
                 "docteurs": [{
                     "name": "GILLES",
                     "firstname": "René",
@@ -425,8 +427,10 @@ export class Data {
                 ]
             }, {
                 "service": "MÉDECINE NUCLÉAIRE",
-                "num": "05 56 43 74 70 - Fax 05 56 43 74 53",
-                "mailsec": "sc.mednuc@bordeaux-nord.com - www.scintigraphie@bordeauxnord.com",
+                "numsec": "05 56 43 74 70 - Fax 05 56 43 74 53",
+                "mailsec": "sc.mednuc@bordeaux-nord.com",
+                "site": "www.scintigraphie@bordeauxnord.com",
+                "both": true,
                 "docteurs": [{
                     "name": "LAMBERT",
                     "firstname": "Bernard",
@@ -456,6 +460,7 @@ export class Data {
                 "service": "RADIOLOGIE ÉCHOGRAPHIE",
                 "numsec": "05 56 43 73 90 ",
                 "site": "www.imagerie-medicale-bordeaux-nord.fr",
+                "both": true,
                 "docteurs": [{
                     "name": "BELAIDI",
                     "firstname": "Mourad",
@@ -503,7 +508,8 @@ export class Data {
                     "firstname": "Elise",
                     "mail": "dr.ederoquefeuil@bordeauxnord.com"
                 }, {
-                    "name": "SANANES Jean-Christophe",
+                    "name": "SANANES",
+                    "firstname": "Jean-Christophe",
                     "mail": "dr.sananes@bordeauxnord.com"
                 }]
             },
@@ -511,6 +517,7 @@ export class Data {
                 "service": "SCANNER IRM",
                 "numsec": "05 56 17 33 33",
                 "site": "www.imagerie-medicale-bordeaux-nord.fr",
+                "both": true,
                 "rdv": "doctolib.fr",
                 "docteurs": [{
                     "name": "HERPE",
@@ -552,19 +559,24 @@ export class Data {
                     "firstname": "Françoise",
                     "mail": "francoisemallemouche@yahoo.fr"
                 }, {
-                    "name": "BERNARD-CASALEGNO Sylvie",
+                    "name": "BERNARD-CASALEGNO",
+                    "firstname": "Sylvie",
                     "mail": "dr.sbernard-casalegno@bordeauxnord.com"
                 }, {
-                    "name": "CHAULIN Bertrand",
+                    "name": "CHAULIN",
+                    "firstname": "Bertrand",
                     "mail": "dr.bchaulin@bordeauxnord.com"
                 }, {
-                    "name": "CRUETTE Pierre",
-                    "firstname": "docteurscruettefagegaltier@wanadoo.fr"
+                    "name": "CRUETTE",
+                    "firstname": "Pierre",
+                    "mail": "docteurscruettefagegaltier@wanadoo.fr"
                 }, {
-                    "name": "DUSSAUT Jean-Philippe",
-                    "firstname": "jpdussaut33@gmail.com"
+                    "name": "DUSSAUT",
+                    "firstname": "Jean-Philippe",
+                    "mail": "jpdussaut33@gmail.com"
                 }, {
-                    "name": "GARIN Isabelle",
+                    "name": "GARIN",
+                    "firstname": "Isabelle",
                     "mail": "dr.igarin@bordeauxnord.com"
                 }, {
                     "name": "GOUZIEN",
@@ -574,24 +586,19 @@ export class Data {
                     "firstname": "Myriam",
                     "mail": "myraynaud@yahoo.fr"
                 }, {
-                    "name": "SANANES Jean-Christophe",
+                    "name": "SANANES",
+                    "firstname": "Jean-Christophe",
                     "mail": "dr.sananes@bordeauxnord.com"
                 }, {
                     "name": "KERIOUI",
                     "firstname": "Noureddine",
                     "mail": "dr.kerioui@bordeauxnord.com"
                 }]
-            }
-            ]
-        },
-        {
-            "id": 4,
-            "color": "blue",
-            "department": "MÉDECINE",
-            "data": [{
-                "service": "RADIOLOGIE INTERVENTIONNELLE ",
+            }, {
+                "service": "RADIOLOGIE INTERVENTIONNELLE",
                 "numsec": "05 56 43 73 90",
                 "site": "www.imagerie-medicale-bordeaux-nord.fr",
+                "both": true,
                 "docteurs": [{
                     "name": "BLACHERE",
                     "firstname": "Hervé",
@@ -608,7 +615,14 @@ export class Data {
                     "mail": "dr.bhouang@bordeauxnord.com"
                 }
                 ]
-            }, {
+            }
+            ]
+        },
+        {
+            "id": 4,
+            "color": "blue",
+            "department": "MÉDECINE",
+            "data": [{
                 "service": "CARDIOLOGIE",
                 "docteurs": [{
                     "name": "BRETTE",
@@ -1232,11 +1246,11 @@ export class Data {
                 }
                 ]
             } /* {
-                "service": "CENTRE AQUITAIN DU SEIN",
-                "numsec": "07 72 35 98 92",
-                "site": "centreaquitaindusein.fr",
-                "mailsec": "centreaquitaindusein@bordeauxnord.com"
-            } */ , {
+    "service": "CENTRE AQUITAIN DU SEIN",
+    "numsec": "07 72 35 98 92",
+    "site": "centreaquitaindusein.fr",
+    "mailsec": "centreaquitaindusein@bordeauxnord.com"
+    } */ , {
                 "service": "CHIRURGIE MAXILLO-FACIALE ET STOMATOLOGIQUE",
                 "docteurs": [{
                     "name": "LAURENTJOYE",
@@ -1291,9 +1305,9 @@ export class Data {
                 }
                 ]
             }, /* {
-                "service": "URGENCES MAINS",
-                "numsec": "05 56 43 73 56"
-            }, */ {
+    "service": "URGENCES MAINS",
+    "numsec": "05 56 43 73 56"
+    }, */ {
                 "service": "CHIRURGIE DU MEMBRE INFÉRIEUR",
                 "docteurs": [{
                     "name": "NOAILLES",
@@ -1372,11 +1386,11 @@ export class Data {
                     "rdv": "doctolib.fr"
                 }]
             }, /* {
-                "service": "URGENCES VERTÈBRES",
-                "msg": "Prise en charge des urgences rachidiennes",
-                "mailsec": "vertebra@bordeauxnord.com",
-                "numsec": "05 56 43 73 56"
-            },  */{
+    "service": "URGENCES VERTÈBRES",
+    "msg": "Prise en charge des urgences rachidiennes",
+    "mailsec": "vertebra@bordeauxnord.com",
+    "numsec": "05 56 43 73 56"
+    },*/{
                 "service": "CHIRURGIE PÉDIATRIQUE ORTHOPÉDIQUE ET SCOLIOSE",
                 "docteurs": [{
                     "name": "LEGRAND",
@@ -1754,12 +1768,12 @@ export class Data {
                     "mail": "b.henriques@bordeauxnord.com"
                 }]
             },
-           /*  {
-                "service": "CENTRE AQUITAIN DU SEIN",
-                "numsec": "07 72 35 98 92",
-                "site": "centreaquitaindusein.fr",
-                "mailsec": "centreaquitaindusein@bordeauxnord.com",
-            }, */ {
+     /*{
+    "service": "CENTRE AQUITAIN DU SEIN",
+    "numsec": "07 72 35 98 92",
+    "site": "centreaquitaindusein.fr",
+    "mailsec": "centreaquitaindusein@bordeauxnord.com",
+    }, */ {
                 "service": "ONCOPNEUMOLOGIE",
                 "numsec": "05 56 44 34 51",
                 "docteurs": [

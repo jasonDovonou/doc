@@ -11,7 +11,7 @@
   <ion-list *ngIf="done">
     <ion-item lines="none" *ngFor="let service of filterBy('service');let i = index"
       [routerLink]="['/services/',index,i]">
-      <ion-label [color]="department.color">{{service.service}} </ion-label>
+      <ion-label class="final" [color]="department.color">{{service.service}} </ion-label>
     </ion-item>
   </ion-list>
 </ion-content>

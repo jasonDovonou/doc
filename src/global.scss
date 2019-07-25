@@ -14,6 +14,14 @@
     src: url('/assets/fonts/Geometria.ttf');
 }
 
+ion-label {
+    white-space: normal !important;
+}
+
+ion-list {
+    padding-top: 10px;
+}
+
 ion-item {
     font-family: 'geometria';
     font-size: 12px;
@@ -49,7 +57,7 @@ ion-item {
     padding-bottom: 16px;
     font-family: 'geometria';
     color: #76777C;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 
     .textor {
         border-bottom: 1px solid;

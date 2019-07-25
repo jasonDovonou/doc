@@ -19,10 +19,11 @@
       <ion-icon class="icon" name="mail"></ion-icon> {{service.mailsec}}
     </div>
     <div *ngIf="service.site" class="info">
-      <ion-icon class="icon" name="desktop"></ion-icon> {{service.site}}
+      <ion-icon class="icon" name="desktop"></ion-icon>
+      <ion-icon *ngIf="service.both" class="icon" name="calendar"></ion-icon> {{service.site}}
     </div>
     <div *ngIf="service.rdv" class="info">
-      <fa-icon class="icon" [icon]="faCalendarAlt"></fa-icon> {{service.rdv}}
+      <ion-icon class="icon" name="calendar"></ion-icon> {{service.rdv}}
     </div>
   </div>
   <ion-list *ngIf="service.docteurs">
