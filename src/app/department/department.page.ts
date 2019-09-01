@@ -7,18 +7,15 @@ import { Router } from '@angular/router';
   templateUrl: './department.page.html',
 })
 export class DepartmentPage implements OnInit {
-  data: any;
   index: any;
   department: any;
   done: boolean;
 
-  constructor(private router: Router) {
-    this.data = Data.getData().sort((a, b) => a['department'] > b['department'] ? 1 : a['department'] === b['department'] ? 0 : -1);
-  }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.index = this.router.url.split(/[//]/)[2];
-    this.department = this.data[this.index];
+    this.department = Data.getData()[this.index];
     this.done = true;
   }
   filterBy(prop: string) {

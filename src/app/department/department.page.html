@@ -1,17 +1,18 @@
 <ion-header>
   <ion-toolbar [color]="department.color">
     <div class="service">
-      <ion-icon mode="ios" class="back" name="arrow-back" [routerLink]="['/']"></ion-icon>
+      <ion-icon mode="ios" class="back" name="arrow-back" [routerLink]="['/summary']"></ion-icon>
       {{department.department}}
     </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-list *ngIf="done">
+<ion-content [color]="department.color">
+  <img [src]="'assets/money/'+department.img+'.png'" alt="PBNA">
+  <ion-list *ngIf="done" style="padding:0">
     <ion-item lines="none" *ngFor="let service of filterBy('service');let i = index"
-      [routerLink]="['/services/',index,i]">
-      <ion-label class="final" [color]="department.color">{{service.service}} </ion-label>
+      [routerLink]="['/services/',index,i]" [color]="department.color">
+      <ion-label class="final">{{service.service}} </ion-label>
     </ion-item>
   </ion-list>
 </ion-content>

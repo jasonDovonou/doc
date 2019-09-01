@@ -5,6 +5,7 @@ export class Data {
             "id": 1,
             "color": "azul",
             "department": "MATERNITÉ PETITE ENFANCE",
+            "img": "maternite2",
             "data": [{
                 "service": "ÉCHOGRAPHIE OBSTÉTRICALE DIAGNOSTIC ANTÉNATAL",
                 "numsec": "05 56 43 72 20 ",
@@ -258,6 +259,7 @@ export class Data {
             "id": 2,
             "color": "red",
             "department": "MÉDECINE D’URGENCE",
+            "img": "medur2",
             "data": [{
                 "service": "MÉDECINE D’URGENCE",
                 "numsec": "05 56 43 73 56",
@@ -331,6 +333,7 @@ export class Data {
             "id": 3,
             "color": "pink",
             "department": "IMAGERIE MÉDICALE",
+            "img": "imagerie2",
             "data": [{
                 "service": "ÉCHO-DOPPLER",
                 "numsec": "05 56 43 74 28",
@@ -622,6 +625,7 @@ export class Data {
             "id": 4,
             "color": "blue",
             "department": "MÉDECINE",
+            "img": "med2",
             "data": [{
                 "service": "CARDIOLOGIE",
                 "docteurs": [{
@@ -1021,6 +1025,7 @@ export class Data {
             "id": 5,
             "color": "brown",
             "department": "ANESTHÉSIE RÉANIMATION",
+            "img": "anesth2",
             "data": [{
                 "service": "ANESTHÉSIE",
                 "numsec": "05 64 60 15 43 ",
@@ -1128,6 +1133,7 @@ export class Data {
             "id": 6,
             "color": "green",
             "department": "CHIRURGIE",
+            "img": "chirur2",
             "data": [{
                 "service": "CHIRURGIE CERVICO FACIAL ORL",
                 "docteurs": [{
@@ -1620,6 +1626,7 @@ export class Data {
             "id": 7,
             "color": "orange",
             "department": "TRAITEMENT DU CANCER",
+            "img": "traitem2",
             "data": [{
                 "service": "HÉPATO-GASTRO-ONCO-ENTÉROLOGIE ",
                 "docteurs": [{

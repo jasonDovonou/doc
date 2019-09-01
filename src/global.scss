@@ -16,6 +16,7 @@
 
 ion-label {
     white-space: normal !important;
+    color: #FFFF !important;
 }
 
 ion-list {
@@ -166,4 +167,15 @@ ion-item {
     --ion-color-contrast-rgb: var(--ion-color-orange-contrast-rgb) !important;
     --ion-color-shade: var(--ion-color-orange-shade) !important;
     --ion-color-tint: var(--ion-color-orange-tint) !important;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.full-height {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
