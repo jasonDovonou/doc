@@ -23,7 +23,6 @@ export class Data {
                 {
                     "name": "HOUANG",
                     "firstname": "Bernard",
-                    "mail": "dr.bhouang@bordeauxnord.com"
                 },
                 {
                     "name": "PIETRERA CASTERA",
@@ -399,7 +398,6 @@ export class Data {
                 {
                     "name": "HOUANG",
                     "firstname": "Bernard",
-                    "mail": "dr.bhouang@bordeauxnord.com"
                 },
                 {
                     "name": "PIETRERA CASTERA",
@@ -487,7 +485,6 @@ export class Data {
                 }, {
                     "name": "HOUANG",
                     "firstname": "Bernard",
-                    "mail": "dr.bhouang@bordeauxnord.com"
                 }, {
                     "name": "BLACHERE",
                     "firstname": "Hervé",
@@ -545,7 +542,6 @@ export class Data {
                 }, {
                     "name": "HOUANG",
                     "firstname": "Bernard",
-                    "mail": "dr.bhouang@bordeauxnord.com",
                     "numsec": "05 56 17 33 33",
                     "site": "www.imagerie-medicale-bordeaux-nord.fr",
                     "rdv": "doctolib.fr"
@@ -615,7 +611,6 @@ export class Data {
                 {
                     "name": "HOUANG",
                     "firstname": "Bernard",
-                    "mail": "dr.bhouang@bordeauxnord.com"
                 }
                 ]
             }
@@ -765,30 +760,24 @@ export class Data {
             }, {
                 "service": "HÉMODIALYSE",
                 "numsec": "05 56 43 74 16",
+                "mailsec": "scpnephro-pbna@wanadoo.fr",
+                "rdv": "doctolib.fr",
                 "docteurs": [{
                     "name": "BARANGER",
                     "firstname": "Thierry",
                     "mail": "tbnephro@gmail.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "BERGE",
                     "firstname": "Franck",
                     "mail": "frank.berge33@orange.fr",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "DELFOSSE",
                     "firstname": "Stéphanie",
                     "mail": "stedelfosse@gmail.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "DROUILLAT",
                     "firstname": "Valérie",
                     "mail": "dr.drouillat@bordeauxnord.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "FRANGIE",
                     "firstname": "Carlos",
@@ -797,8 +786,6 @@ export class Data {
                     "name": "ROSIER",
                     "firstname": "Emmanuelle",
                     "mail": "dr.erosier@bordeauxnord.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "SENIUTA",
                     "firstname": "Piotr",
@@ -884,30 +871,24 @@ export class Data {
             }, {
                 "service": "NÉPHROLOGIE HOSPITALISATION COMPLÈTE",
                 "numsec": "05 56 43 74 16",
+                "mailsec": "scpnephro-pbna@wanadoo.fr",
+                "rdv": "doctolib.fr",
                 "docteurs": [{
                     "name": "BARANGER",
                     "firstname": "Thierry",
                     "mail": "tbnephro@gmail.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "BERGE",
                     "firstname": "Franck",
                     "mail": "frank.berge33@orange.fr",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "DELFOSSE",
                     "firstname": "Stéphanie",
                     "mail": "stedelfosse@gmail.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "DROUILLAT",
                     "firstname": "Valérie",
                     "mail": "dr.drouillat@bordeauxnord.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "FRANGIE",
                     "firstname": "Carlos",
@@ -916,8 +897,6 @@ export class Data {
                     "name": "ROSIER",
                     "firstname": "Emmanuelle",
                     "mail": "dr.erosier@bordeauxnord.com",
-                    "mailsec": "scpnephro-pbna@wanadoo.fr",
-                    "rdv": "doctolib.fr"
                 }, {
                     "name": "SENIUTA",
                     "firstname": "Piotr",
@@ -925,6 +904,7 @@ export class Data {
                 }]
             }, {
                 "service": "PNEUMOLOGIE ENDOSCOPIE BRONCHIQUE",
+                "numsec": "05 56 05 56 89",
                 "docteurs": [{
                     "name": "CASTEIGT",
                     "firstname": "Julien",
@@ -951,6 +931,7 @@ export class Data {
                 ]
             }, {
                 "service": "RÉADAPTATION PULMONAIRE",
+                "numsec": "05 56 05 56 89",
                 "docteurs": [{
                     "name": "MOINARD",
                     "firstname": "Jean",
@@ -1159,7 +1140,7 @@ export class Data {
                 {
                     "name": "BELLEC",
                     "firstname": "Olivier",
-                    "mail": "olivier.bellec@gmail.com",
+                    "mail": "mbs.orl@wanadoo.fr",
                     "numsec": "05 56 04 24 70",
                     "rdv": "keldoc.com"
                 },
@@ -1376,6 +1357,7 @@ export class Data {
                 "service": "CHIRURGIE ORTHOPÉDIQUE DU RACHIS VERTEBRA",
                 "numsec": "05 64 60 15 47 ",
                 "mailsec": "vertebra@bordeauxnord.com",
+                "rdv": "doctolib.fr",
                 "docteurs": [{
                     "name": "LE HUEC",
                     "firstname": "Jean-Charles",
@@ -1434,16 +1416,17 @@ export class Data {
                 }]
             }, {
                 "service": "GASTRO-ENTEROLOGIE PÉDIATRIQUE",
-                "name": "ROCHE",
-                "firstname": "Sandrine",
-                "mail": "sandrineroch@gmail.com",
-                "numsec": "05 56 00 86 69",
                 "docteurs": [{
                     "name": "HALB",
                     "firstname": "Céline",
                     "mail": "dr.chalb@bordeauxnord.com",
                     "numsec": "05 56 29 82 99",
                     "rdv": "doctolib.fr"
+                }, {
+                    "name": "ROCHE",
+                    "firstname": "Sandrine",
+                    "mail": "sandrineroch@gmail.com",
+                    "numsec": "05 56 00 86 69",
                 }]
             }, {
                 "service": "CHIRURGIE UROLOGIQUE",
@@ -1617,7 +1600,6 @@ export class Data {
                     "name": "HOUANG",
                     "firstname": "Bernard",
                     "num": "05 56 43 72 20",
-                    "mail": "dr.bhouang@bordeauxnord.com",
                     "numsec": "05 56 17 33 33"
                 }]
             }
@@ -1852,7 +1834,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO-GYNÉCOLOGIQUE CARCINO-MAMMAIRE",
+                "service": "CHIRURGIE CARCINO-GYNÉCOLOGIQUE, CARCINO-MAMMAIRE",
                 "docteurs": [{
                     "name": "GIOANNI",
                     "firstname": "Gilles",
@@ -1919,7 +1901,7 @@ export class Data {
                 ]
             },
             {
-                "service": "CHIRURGIE CARCINO, ORL ET CERVICO-FACIALE",
+                "service": "CHIRURGIE CARCINO-ORL ET CERVICO-FACIALE",
                 "docteurs": [{
                     "name": "RICARD",
                     "firstname": "Anne-Sophie",

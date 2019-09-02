@@ -28,7 +28,7 @@
   </div>
   <ion-list *ngIf="service.docteurs">
     <ion-item lines="none" *ngFor="let doc of filterBy('name');let i = index"
-      [routerLink]="['/docteur/',index,indexServ,i]">
+      [routerLink]="['/docteur/',index,indexServ,i]" detail="false">
       <ion-grid>
         <ion-row>
           <span [ngStyle]="{'color' : 'var(--ion-color-' + department.color + ')'}">Dr {{doc.name | uppercase}}

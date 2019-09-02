@@ -11,7 +11,7 @@
   <img [src]="'assets/money/'+department.img+'.png'" alt="PBNA">
   <ion-list *ngIf="done" style="padding:0">
     <ion-item lines="none" *ngFor="let service of filterBy('service');let i = index"
-      [routerLink]="['/services/',index,i]" [color]="department.color">
+      [routerLink]="['/services/',index,i]" [color]="department.color" detail="false">
       <ion-label class="final">{{service.service}} </ion-label>
     </ion-item>
   </ion-list>
