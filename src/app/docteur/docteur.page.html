@@ -28,26 +28,17 @@
   </div>
   <ion-list>
     <div class="photoz">
-      <ion-item lines="none">
-        <ion-grid>
-          <ion-row>
-            <ion-col class="colphoto">
-              <img *ngIf="image!=='assets/money/undefined'" [src]="image" alt="docteur">
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col class="colphoto">
-              <span [ngStyle]="{'color' : 'var(--ion-color-' + department.color + ')'}">Dr {{doc.name | uppercase}}
-                {{doc.firstname}}</span>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col class="colphoto">
-              <span>{{doc.mail}}</span>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-item>
+      <div class="docimg">
+        <img *ngIf="image!=='assets/money/undefined'" [src]="image" alt="docteur" width="160px" height="160px">
+      </div>
+      <div class="docname">
+        <span [ngStyle]="{'color' : 'var(--ion-color-' + department.color + ')'}">Dr
+          {{doc.name | uppercase}}
+          {{doc.firstname}}</span>
+      </div>
+      <div class="docmail">
+        <span>{{doc.mail}}</span>
+      </div>
     </div>
 
     <ion-item class="foot" lines="none">
